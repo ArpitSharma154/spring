@@ -1,4 +1,4 @@
-package com.springcore.spring;
+package com.springcore;
 
 public class Cons {
 	

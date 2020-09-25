@@ -1,4 +1,4 @@
-package com.springcore.spring;
+package com.springcore;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -9,7 +9,7 @@ public class App
 {
     public static void main( String[] args )
     {
-     ApplicationContext context = new ClassPathXmlApplicationContext("com/springcore/spring/config.xml");
+     ApplicationContext context = new ClassPathXmlApplicationContext("com/springcore/config.xml");
      Cons con = (Cons) context.getBean("cons1");
      System.out.println(con);
      con.add();
