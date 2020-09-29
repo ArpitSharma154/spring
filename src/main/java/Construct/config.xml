@@ -7,7 +7,7 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
     
-    <bean class = "com.springcore.Cons" name="cons1">
+    <bean class = "Construct.Cons" name="cons1">
     	<constructor-arg value="10"></constructor-arg>
     	<constructor-arg value="18"></constructor-arg>
     </bean>
